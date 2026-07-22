@@ -135,6 +135,7 @@ font-size: 20px;
 padding: 10px 20px;
 border-color: blue;
 border-style: solid;
+display: inline-block;
 }
 .content{
     display:flex;
@@ -176,4 +177,95 @@ border-style: solid;
     border-color: blue;}
     
 
+.rbutton:hover{
+     background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 12px;
+    transition: 0.2s;
 }
+.aboutus{
+    display:flex;
+    gap: 30px;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    margin: 20px;
+    border-style: dotted;
+    height: 900px;
+}
+
+.abt{
+    display: inline-block;
+    margin: 50px 60px;
+    text-align: left;
+}
+
+.abtimg1{
+    display: flex;
+    flex-wrap: wrap; 
+    align-content: flex-start;
+}
+.abtimg1 img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+.abt h3{
+    color: blue;
+    margin-bottom:20px ;
+}
+.abt h1{
+    margin-bottom:20px ;
+}
+
+.abt p{
+    color: gray;
+    font-size: 15px;
+}
+ .tick ul {
+    list-style: none;
+    
+}
+.tick li{
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tick li i{
+    color: #0d6efd; 
+    font-size: 18px;
+}
+
+.abt li {
+    width:300px
+}
+.bulb{
+    background-color: white;
+    border-color:gray;
+    border-style:solid;
+    width: 400px;
+    padding: 15px ;
+    margin-top: 30px;
+    border-width: 1px;
+    
+}
+.bulb i{
+ color: blue;
+}
+.getstarted{
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+    
+}
+.getstarted a{
+    display: inline-block;
+    padding:20px 30px;
+    text-align:justify;
+}
+
